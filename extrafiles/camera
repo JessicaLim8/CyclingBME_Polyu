@@ -1,0 +1,22 @@
+class Camera():
+
+    def __init__(self, camId):
+        id = camId
+        processing = False
+
+    def isProcessing(self):
+        return self.processing
+
+    def camID(self):
+        return self.id
+
+    def startUp(self):
+        #set up camera recording
+        processing = True
+    
+    def shutDown(self):
+        #close down camera recording
+        processing = False
+
+    def processing(self):
+        # processing data
